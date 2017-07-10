@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.wrap {
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #E3E773;
+	overflow: hidden;
+}
+.mmenu {
+	display: none;
+	width: 180px;
+	height: 50vh;
+	background-color: #4f0d0e;
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-left: -160px;
+	transition: all ease 500ms;
+}
+.mmenu:hover {
+	margin-left: 0;
+}
+.mmenu a {
+	color: #fff;
+}
+.mmenu ul {
+	margin:20px;
+}
+.mmenu ul li {	
+	line-height: 150%;
+	list-style-type: none;
+}
+header img {
+	max-width: 360px;
+	width: 80%;
+	display: block;
+	margin: 20px auto;
+}
+h1 {
+	text-align: center;
+}
+nav {
+	text-align: center;
+	font-size: 18px;
+	margin: 20px 0;
+}
+li {
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+nav li a {
+	text-decoration: none;
+}
+section {
+	margin: 10px 20px;
+}
+section h2 {
+	text-align: center;
+	margin: 10px 0;
+}
+p {
+	text-indent: 20px;
+	line-height: 150%;
+	margin: 10px;
+}
+section img {
+	max-width: 840px;
+	width: 48%;
+	display: block;
+	float: left;
+	margin: 1%;
+}
+#up img {
+	padding: 5px 10px;
+	width: 5%;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	opacity: 0.5;
+	border-radius: 55%;
+}
+.min, .max {
+	width: 48%;
+	float: left;
+	margin: 0 0 20px 0;
+}
+.clear {
+	clear: both;
+}
+@media screen and (max-width: 768px) {
+.mmenu {
+	display: block;
+}	
+@media screen and (max-width: 768px) {
+nav {
+	display: none;
+}	
